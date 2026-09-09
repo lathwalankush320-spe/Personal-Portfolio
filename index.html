@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankush Lathwal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="logo" href="#home">Ankush<span>.</span></a>
+
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="top-btn" href="#contact">Get in Touch</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Ankush Lathwal</h1>
+        <p class="lead">
+          Aspiring developer passionate about building practical projects
+          with C++, web technologies, and Arduino-based embedded systems.
+        </p>
+
+        <div class="buttons">
+          <a class="btn primary" href="#projects"><i class="fa-solid fa-globe"></i> View Projects</a>
+          <a class="btn secondary" href="#contact"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+        </div>
+
+        <div class="socials">
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <div class="photo-ring">
+          <img src="profile.png" alt="Ankush Lathwal">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <div class="container narrow">
+      <div class="section-title">
+        <h2>About Me</h2>
+        <span></span>
+      </div>
+      <p>
+        I'm Ankush Lathwal, a curious and motivated developer who enjoys
+        turning ideas into working projects. I have hands-on experience with
+        programming in C++, building responsive web interfaces with HTML, CSS,
+        and JavaScript, and creating real-world embedded solutions using Arduino.
+      </p>
+      <p>
+        I love solving problems, learning new technologies, and building things
+        that make everyday tasks easier. Whether it's a smart attendance system,
+        a billing app, or an IoT safety device, I focus on clean code and
+        practical design.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <span></span>
+        <p>Technologies and tools I use to bring ideas to life.</p>
+      </div>
+
+      <div class="cards skills-grid">
+        <article class="card">
+          <div class="icon"><i class="fa-solid fa-code"></i></div>
+          <h3>C++</h3>
+          <p>Object-oriented programming and problem solving</p>
+        </article>
+        <article class="card">
+          <div class="icon"><i class="fa-brands fa-html5"></i></div>
+          <h3>HTML</h3>
+          <p>Semantic markup and accessibility</p>
+        </article>
+        <article class="card">
+          <div class="icon"><i class="fa-brands fa-css3-alt"></i></div>
+          <h3>CSS</h3>
+          <p>Responsive styling and modern layouts</p>
+        </article>
+        <article class="card">
+          <div class="icon"><i class="fa-brands fa-js"></i></div>
+          <h3>JavaScript</h3>
+          <p>Interactive web development</p>
+        </article>
+        <article class="card">
+          <div class="icon"><i class="fa-solid fa-microchip"></i></div>
+          <h3>Arduino</h3>
+          <p>Embedded systems and IoT prototyping</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section education">
+    <div class="container narrow">
+      <div class="section-title">
+        <h2>Education</h2>
+        <span></span>
+      </div>
+
+      <div class="education-list">
+        <article class="edu-card">
+          <div>
+            <h3>Bachelor of Technology</h3>
+            <p><i class="fa-solid fa-circle"></i> Computer Science / Related Field</p>
+            <small>University / College Name</small>
+          </div>
+          <span class="date">20XX - Present</span>
+        </article>
+
+        <article class="edu-card">
+          <div>
+            <h3>Senior Secondary (12th)</h3>
+            <p><i class="fa-solid fa-circle"></i> Science / Non-Medical</p>
+            <small>School Name</small>
+          </div>
+          <span class="date">20XX - 20XX</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Projects</h2>
+        <span></span>
+        <p>A selection of projects I've built to apply my skills and solve real problems.</p>
+      </div>
+
+      <div class="cards project-grid">
+        <article class="project-card">
+          <h3>RFID Smart Attendance System</h3>
+          <p>An automated attendance tracking system using RFID cards and Arduino to record entries in real time.</p>
+          <div class="tags"><span>Arduino</span><span>RFID</span><span>Embedded Systems</span></div>
+          <a href="#">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+
+        <article class="project-card">
+          <h3>GST Billing App</h3>
+          <p>A billing application that calculates GST, generates invoices, and manages product records efficiently.</p>
+          <div class="tags"><span>JavaScript</span><span>HTML/CSS</span><span>Finance</span></div>
+          <a href="#">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+
+        <article class="project-card">
+          <h3>Smart Helmet</h3>
+          <p>A safety-focused helmet prototype with sensors to detect usage and alert riders for improved road safety.</p>
+          <div class="tags"><span>IoT</span><span>Sensors</span><span>Arduino</span></div>
+          <a href="#">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div class="section-title left">
+          <h2>Get in Touch</h2>
+          <span></span>
+        </div>
+        <p>Have a project in mind or just want to connect? Feel free to reach out.</p>
+
+        <div class="info-item">
+          <div class="round-icon"><i class="fa-regular fa-envelope"></i></div>
+          <div><strong>Email</strong><br><span>ankush@example.com</span></div>
+        </div>
+        <div class="info-item">
+          <div class="round-icon"><i class="fa-solid fa-phone"></i></div>
+          <div><strong>Phone</strong><br><span>+91 99999 99999</span></div>
+        </div>
+        <div class="info-item">
+          <div class="round-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div><strong>Location</strong><br><span>India</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label>Name</label>
+        <input type="text" placeholder="Your name" required>
+        <label>Email</label>
+        <input type="email" placeholder="your@email.com" required>
+        <label>Message</label>
+        <textarea placeholder="Write your message..." required></textarea>
+        <button class="send-btn" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <p>© 2026 Ankush Lathwal. All rights reserved.</p>
+    <div class="footer-socials">
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
